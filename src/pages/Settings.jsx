@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { Settings as SettingsIcon, Save, RefreshCcw } from 'lucide-react';
+import { Settings as SettingsIcon, Save, RefreshCcw, CheckCircle } from 'lucide-react';
 import { generateSensorData } from '../utils/iotSimulator';
 
 const Settings = () => {
